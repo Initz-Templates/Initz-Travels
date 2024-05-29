@@ -1,0 +1,109 @@
+.container {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 10px;
+   }
+  
+  .maincontent {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .tripdetails {
+    margin-bottom: 20px;
+  }
+
+  .container h1 span{
+    color: #0d6efd;
+  }
+  
+  .tripdetails h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Darken the color */
+  }
+  
+  .tripdetails p {
+    font-size: 18px;
+    color: #555; /* Slightly darken the color */
+    margin-bottom: 10px;
+  }
+  
+  .tripdetails button {
+    background-color: #007bff; /* Blue button */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .tripdetails button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .imagegallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allow images to wrap to the next line if there's not enough space */
+    margin-bottom: 20px;
+  }
+  
+  .imagegallery img {
+    width: 350px; /* Set a fixed width for each image */
+    height: 250px; /* Set a fixed height for each image */
+    margin-right: 10px;
+    transition: transform 0.3s ease; /* Add transition effect */
+  }
+  
+  .imagegallery img:hover {
+    transform: scale(1.1); /* Scale up the image on hover */
+  }
+  
+  .subheading span{
+    color: #0d6efd;
+  }
+
+  .maincontent button {
+    background-color: #007bff; /* Blue button */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .maincontent button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  } 
+
+  /* .trip-info { */
+
+    /* list-style:none; */
+    /* padding: 0;            Remove default padding */
+    /* margin: 0;             Remove default margin */
+    /* font-family: Arial, sans-serif; Set a font for the text */
+  /* } */
+
+  ul{
+    list-style: none;
+  }
+  
+  .trip-info li {
+    margin-bottom: 10px;   /* Space between list items */
+    font-size: 16px;       /* Font size for list items */
+  }
+
+  ul.trip-info li::marker {
+    content: none; /* Explicitly remove list markers */
+  }
+
+  ul.trip-info li::before {
+    content: '';  /* Clear any default marker content */
+    display: inline-block; /* Maintain inline block formatting */
+    width: 0; /* No width to hide marker */
+  }
