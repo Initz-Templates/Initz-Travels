@@ -9,7 +9,6 @@ import Hero from "./Components/Hero";
 import Recommendation from "./Components/Recommendation";
 import Classes from "./Styles/Footer.module.css";
 import SingaporeTripPage from "./Components/SingaPore";
-import "./Styles/Singapore.module.css";
 import { createRoot } from "react-dom/client";
 import {
   createBrowserRouter,
